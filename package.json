@@ -1,0 +1,25 @@
+{
+  "name": "sql-node",
+  "version": "1.0.0",
+  "description": "sql and node database project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevans12/sql-node.git"
+  },
+  "author": "Kyle Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevans12/sql-node/issues"
+  },
+  "homepage": "https://github.com/kevans12/sql-node#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "massive": "^2.5.0"
+  }
+}
