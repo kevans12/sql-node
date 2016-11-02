@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var cors = require('cors');
 var massive = require('massive');
 
-var connectionString = "postgres://postgres:soccer12@localhost/practice-products";
+var connectionString = "postgres://postgres:PASSWORD@localhost/practice-products";
 
 var app = module.exports = express();
 app.use(bodyParser.json());
